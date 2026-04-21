@@ -1,0 +1,18 @@
+{
+  "name": "todo-list-frontend",
+  "version": "1.0.0",
+  "description": "Frontend Vue.js pour l’application Todo List",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "core-js": "^3.37.0",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8"
+  }
+}
