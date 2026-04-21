@@ -1,5 +1,3 @@
-# Argentine - Champion of the world
-
 # Frontend - Todo List
 
 Frontend Vue.js de l'application Todo List.
@@ -7,12 +5,23 @@ Frontend Vue.js de l'application Todo List.
 ## Prerequis
 
 - Node.js 18 ou plus recent
-- un backend disponible sur `http://localhost:3000`
+- un backend disponible sur le port 3009 (par defaut)
 
 ## Installation
 
 ```bash
 npm install
+```
+
+## Configuration
+
+1. Copier `.env.example` en `.env`.
+2. Adapter l'URL backend si necessaire.
+
+Exemple :
+
+```dotenv
+VUE_APP_API_URL=http://localhost:3009/api/todos
 ```
 
 ## Lancement en developpement

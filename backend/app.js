@@ -10,11 +10,18 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.json({
+    message: 'API Todo en ligne',
+    endpoints: ['/api/todos']
+  });
+});
+
 app.use('/api/todos', todoRoutes);
 
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3009;
 
 sequelize.sync()
   .then(() => {

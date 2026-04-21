@@ -8,7 +8,7 @@
 ## Installation
 
 1. Copier `.env.example` en `.env` et adapter les variables.
-2. Installer les dépendances :
+2. Pour Installer les dépendances :
 
    ```
    npm install
@@ -26,7 +26,20 @@
    npm start
    ```
 
-L’API sera disponible sur [http://localhost:3000](http://localhost:3000).
+L’API sera disponible sur [http://localhost:3009](http://localhost:3009).
+
+## Variables d'environnement
+
+Exemple :
+
+```dotenv
+DB_HOST=localhost
+DB_PORT=3307
+DB_NAME=todo_db
+DB_USER=todo_user
+DB_PASSWORD=todo_pass
+PORT=3009
+```
 
 ## Commandes
 

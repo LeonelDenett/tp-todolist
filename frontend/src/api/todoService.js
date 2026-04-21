@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/api/todos';
+const API_URL = process.env.VUE_APP_API_URL || 'http://localhost:3009/api/todos';
 
 export default {
   getAll() {
