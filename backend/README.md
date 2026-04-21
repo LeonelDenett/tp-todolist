@@ -7,7 +7,13 @@
 
 ## Installation
 
-1. Copier `.env.example` en `.env` et adapter les variables.
+1. Copier `.env.example` en `.env` et adapter les variables :
+- `DB_HOST`
+- `DB_PORT`
+- `DB_NAME`
+- `DB_USER`
+- `DB_PASSWORD`
+
 2. Installer les dépendances :
 
    ```
@@ -19,6 +25,7 @@
    ```sql
    CREATE DATABASE todo_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
    ```
+La base de données sera disponible au port spécifié dans le paramètre `DB_PORT` du fichier .env
 
 4. Lancer le serveur :
 
